@@ -1,0 +1,79 @@
+html {
+  padding-top: 50px;
+  padding-right: 90px;
+  padding-bottom: 50px;
+  padding-left: 90px;
+  height: 100%;
+  background: linear-gradient(azure, lemonchiffon, azure);
+  background-size: .1rem 400%;
+  animation: bg 8s infinite;
+}
+
+body {
+  height: 100%;
+}
+
+@keyframes bg {
+  0% {
+    background-position: 0 0;
+  }
+  
+  50% {
+    background-position: 0 200%;
+  }
+  
+  100% {
+    background-position: 0 400%;
+  }
+}
+
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  color: mediumvioletred;
+}
+h1 {
+  color: mediumvioletred;
+   font-family: Copperplate, Papyrus, fantasy;
+   font-size: 40px;
+}
+h2 {
+  font-family: Copperplate, Papyrus, fantasy;
+  color: mediumvioletred;
+}
+h3 {
+  font-style: italic;
+}
+a {
+  color: mediumvioletred;
+}
+p {
+  color: mediumvioletred;}
+nav ul {
+  background-color: lightpink;
+  border-style: groove;
+  border-color: MediumVioletRed;
+  border-width: 2px;
+  padding: 10px;
+  border-radius: 10px;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: PapayaWhip;
+}
+nav ul li a {
+  text-decoration: none;
+  color: mediumvioletred;
+}
+img {
+  border-radius: 30px;
+}
+
+
+
+
+
+
